@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package com.tp.idl;
+
+option optimize_for = SPEED;
+
+enum Bool {
+    False        = 0;
+    True         = 1;
+}
